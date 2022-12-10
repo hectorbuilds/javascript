@@ -13,5 +13,4 @@ var B="concatenated"+"string"
 document.write(B)
 var G="Fender Guitar", D="Tama Drums", M="Shure 55";
 document.write(G)
-3+3
-B+H
+document.write(B+H)
