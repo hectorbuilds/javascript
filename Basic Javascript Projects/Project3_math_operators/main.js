@@ -19,7 +19,7 @@ function algebra(){
     document.getElementById("Math 5").innerHTML= alg
 }
 function modulus_Operator(){
-    var remainOperator= 72/9;
+    var remainOperator= 72%9;
     document.getElementById("Math 6").innerHTML= remainOperator
 }
 function negation_Operator(){
