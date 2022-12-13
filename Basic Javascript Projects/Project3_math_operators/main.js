@@ -36,14 +36,3 @@ function decrement (){
     X--;
     document.write(X);
 }
-//below is the dictionary function//
-function my_dictionary(){
-    var Animal= {
-        Species:"Dog",
-        Color:"Black",
-        Breed:"Labrador",
-        Age:5,
-        Sound: "Bark!"
-    };
-    document.getElementById("Dictionary").innerHTML = Animal.Sound;
-}
