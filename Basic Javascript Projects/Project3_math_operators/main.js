@@ -36,3 +36,6 @@ function decrement (){
     X--;
     document.write(X);
 }
+function random1(){
+    document.getElementById("Random").innerHTML = Math.random()
+}
