@@ -6,3 +6,11 @@ function full_sentence() {
     var whole_sentence=part_1.concat(part_2, part_3, part_4);
     document.getElementById("Concatenate").innerHTML = whole_sentence;
 }
+
+//---Slice Method---//
+
+function slice_Method() {
+    var Sentence = "Work hard play hard";   
+    var Section = Sentence.slice(27,33);
+    document.getElementById("Slice").innerHTML = Section;
+}
