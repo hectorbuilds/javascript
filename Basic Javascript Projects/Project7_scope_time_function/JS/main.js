@@ -37,6 +37,6 @@ Add_numbers_2();
 //--get hours--//
 function get_Date() {
     if(new Date().getHours<9) {
-        document.getElementById("Greeting").innerHTML = "How are you today?";
+        document.getElementById("guitars").innerHTML = "How are you today?";
     }
 }
