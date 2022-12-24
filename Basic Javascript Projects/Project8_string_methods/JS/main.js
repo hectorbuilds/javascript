@@ -11,7 +11,7 @@ function full_sentence() {
 
 function slice_Method() {
     var Sentence = "Work hard play hard";   
-    var Section = Sentence.slice(27,33);
+    var Section = Sentence.slice(0,18);
     document.getElementById("Slice").innerHTML = Section;
 }
 
