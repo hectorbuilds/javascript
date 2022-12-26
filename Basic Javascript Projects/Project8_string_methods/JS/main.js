@@ -19,7 +19,7 @@ function slice_Method() {
 
 function string_Method (){
     var X =9;
-    document.getElementById ("Numbers_to_string").innerHTML = X.toString();
+    document.getElementById("Numbers_to_string").innerHTML = X.toString();
 }
 
 // precision
