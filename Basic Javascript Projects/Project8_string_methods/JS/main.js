@@ -17,14 +17,14 @@ function slice_Method() {
 
 // number methods
 
-function string_Method (){
+function string_Method(){
     var X =9;
     document.getElementById("Numbers_to_string").innerHTML = X.toString();
 }
 
 // precision
 
-function precision_Method () {
+function precision_Method() {
     var X = 12444.3334339994421
     document.getElementById("Precision").innerHTML = X.toPrecision (10);
 }
