@@ -36,6 +36,8 @@ Add_numbers_2();
 
 //--get hours--//
 function get_Date() {
+    var Time = new Date().getHours();
+    var Reply;
     if(new Date().getHours<9) {
         document.getElementById("guitars").innerHTML = "How are you today?";
     }
@@ -44,7 +46,7 @@ function get_Date() {
 // time function
 
 function Time_function() {
-    var Time = new Date(). getHours();
+    var Time = new Date().getHours();
     var Reply;
     if (Time <12 == Time > 0) { 
         Reply = "It is morning time!";
