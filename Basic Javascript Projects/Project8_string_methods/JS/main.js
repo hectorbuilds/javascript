@@ -19,7 +19,7 @@ function slice_Method() {
 
 function string_Method() {
     var D = 9;
-    document.getElementById("String").innerHTML = D.toExponential();
+    document.getElementById("String").innerHTML = D.toString();
 }
 
 // precision
