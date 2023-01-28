@@ -1,19 +1,18 @@
-function count_To_Ten() {
-    var Digit = "";
+function Call_Loop() {
     var X = 1;
     while (X <10) {
-        Digit += "<br>" +X;
+        X+=1
     }
-    document.getElementById("Counting_to_Ten").innerHTML = Digit;
+    document.getElementById("Loop").innerHTML = X;
 }
 
-function dog_pics() {
+function array_Function() {
     var Dog_Picture = [];
     Dog_Picture [0] = "running";
     Dog_Picture [1] = "fetching";
     Dog_Picture [2] = "walking";
     Dog_Picture [3] = "sleeping";
-    document.getElementById("Dog").innerHTML = "In this picture, the dog is " +
+    document.getElementById("Array").innerHTML = "In this picture, the dog is " +
         Dog_Picture [2] + ".";
 }
 
@@ -50,11 +49,15 @@ document.getElementById("Car_Object").innerHTML = car.description();
 
 // brea/continue statements
 
-for (let i = 0; i < 10; i++) {
-    if (i === 3) { continue; }
-    text += "The number is " + i + "<br>";
-  }
-
+function for_loop () {
+    text = ""
+    for (let i = 0; i < 10; i++) {
+        if (i === 3) { continue; }
+        text += "The number is " + i + "<br>";
+      }
+    document.getElementById("For").innerHTML = text;
+}
+text = ""
   const cars = ["BMW", "Volvo", "Saab", "Ford"];
   list: {
     text += cars[0] + "<br>";
