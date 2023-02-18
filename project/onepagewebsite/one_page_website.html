@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+	<head> 
+		<meta charset="utf-8">
+		<title> The Space Station | Resort </title>
+		<link rel="stylesheet" href="./one_page_website.css">
+	</head>
+	<body>
+	<a href="https://learncodinganywhere.com/"><em>The Tech Academy</em></a>
+	
+		<!-- NAV -->
+		<div>
+			<div>
+				<ul>
+					<a href="#Home" id="link"><li>Home</li></a>
+					<a href="#Gallery"><li>Gallery</li></a>
+					<a href="#Contact"><li>Reservations</li></a>
+				</ul>
+			</div>
+		</div>
+		<!-- END NAV -->
+		<div id="Home">
+			<div>
+				<div>
+					<span>Guitar station</span>
+				</div>
+			</div>
+		</div>
+		<!--END Home-->
+		
+		<!-- Gallery -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/J76MeYAGaH8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<section>
+			<div id="Gallery">
+				<h1>Gallery</h1>
+				<div>
+					
+					<!-- PHOTO-CONTAINER 1 -->
+					<div>
+						<div>
+							<img src="./guitarimages/guitar_1.jpg" alt="">
+							<div>
+								<h3>Black guitar </h3>
+								<p> Guitar on sale!</p>
+							</div>
+						</div>
+					</div>
+					<!-- End PHOTO-CONTAINER 1 -->
+					<!-- PHOTO-CONTAINER 2 -->
+					<div>
+						<div>
+							<img src="./guitarimages/guitar_2.jpg" alt="">
+							<div>
+								<h3>Blue guitar </h3>
+								<p> Guitar on sale!</p>
+							</div>
+						</div>
+					</div>
+					<!-- End PHOTO-CONTAINER 2 -->
+					<!-- PHOTO-CONTAINER 3 -->
+					<div>
+						<div>
+							<img src="./guitarimages/guitar_3.jpg" alt="">
+							<div>
+								<h3>White guitar</h3>
+								<p> Guitar on sale!</p>
+							</div>
+						</div>
+					</div>
+					<!-- End PHOTO-CONTAINER 3 -->
+					<!-- PHOTO-CONTAINER 4 -->
+					<div>
+						<div>
+							<img src="./guitarimages/guitar_4.jpg" alt="">
+							<div>
+								<h3>Green guitar</h3>
+								<p> Guitar on sale!</p>
+							</div>
+						</div>
+					</div>
+					<!-- End PHOTO-CONTAINER 4 -->
+					<!-- PHOTO-CONTAINER 5 -->
+					<div>
+						<div>
+							<img src="./guitarimages/guitar_5.jpg" alt="">
+							<div>
+								<h3>Guitars!</h3>
+								<p> On sale!</p>
+							</div>
+						</div>
+					</div>
+					<!-- End PHOTO-CONTAINER 5 -->
+					<!-- PHOTO-CONTAINER 6 -->
+					<div>
+						<div>
+							<img src="./guitarimages/guitar_6.jpg" alt="">
+							<div>
+								<h3>Guitars! </h3>
+								<p>On sale!<p>
+							</div>
+						</div>
+					</div>
+					<!-- End PHOTO-CONTAINER 6 -->
+				</div>
+		</section>
+		<!-- End Gallery -->
+		
+		<!-- RSVP -->
+		<section>
+			<div id="Contact">
+				<div>
+					<h1> Reservations</h1>
+					<div>
+						<h2><span>Your adventure is just around a drum.</span>
+							<br/> Reserve you guitar today!
+						</h2>
+						<p>
+							Please provide us with your basic contact information.
+						</p>
+						<div>
+							<form action="" method="post">
+								<input class="rsvp" type="text" value="First Name">
+								<input class="rsvp" type="text" value="Last Name">
+								<input class="rsvp" type="text" value="Email Address">
+								<input class="rsvp" type="text" value="Phone Number">
+								<div class="form-spacer">
+									<label class="terms">Terms and Conditions</label>
+								</div>
+								<div>
+									<input type="submit" value="Submit">
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- END RSVP -->
+		
+		<!-- FOOTER -->
+		<div>
+			www.guitarstation.strum &nbsp | &nbsp &copy 2016
+		</div>
+		<!-- End FOOTER -->
+
+		<!-- Images used to open the lightbox -->
+<div class="row">
+	<div class="column">
+	  <img src="./guitarimages/guitar_1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+	</div>
+	<div class="column">
+	  <img src="./guitarimages/guitar_2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+	</div>
+	<div class="column">
+	  <img src="./guitarimages/guitar_3.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+	</div>
+	<div class="column">
+	  <img src="./guitarimages/guitar_4.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+	</div>
+  </div>
+  
+  <!-- The Modal/Lightbox -->
+  <div id="myModal" class="modal">
+	<span class="close cursor" onclick="closeModal()">&times;</span>
+	<div class="modal-content">
+  
+	  <div class="mySlides">
+		<div class="numbertext">1 / 4</div>
+		<img src="./guitarimages/guitar_1.jpg" style="width:25%">
+	  </div>
+  
+	  <div class="mySlides">
+		<div class="numbertext">2 / 4</div>
+		<img src="./guitarimages/guitar_2.jpg" style="width:25%">
+	  </div>
+  
+	  <div class="mySlides">
+		<div class="numbertext">3 / 4</div>
+		<img src="./guitarimages/guitar_3.jpg" style="width:25%">
+	  </div>
+  
+	  <div class="mySlides">
+		<div class="numbertext">4 / 4</div>
+		<img src="./guitarimages/guitar_4.jpg" style="width:25%">
+	  </div>
+  
+	  <!-- Next/previous controls -->
+	  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+	  <!-- Caption text -->
+	  <div class="caption-container">
+		<p id="caption"></p>
+	  </div>
+  
+	  <!-- Thumbnail image controls -->
+	  <div class="column">
+		<img class="demo" src="./guitarimages/guitar_1.jpg" onclick="currentSlide(1)" alt="Nature">
+	  </div>
+  
+	  <div class="column">
+		<img class="demo" src="./guitarimages/guitar_2.jpg" onclick="currentSlide(2)" alt="Snow">
+	  </div>
+  
+	  <div class="column">
+		<img class="demo" src="./guitarimages/guitar_3.jpg" onclick="currentSlide(3)" alt="Mountains">
+	  </div>
+  
+	  <div class="column">
+		<img class="demo" src="./guitarimages/guitar_4.jpg" onclick="currentSlide(4)" alt="Lights">
+	  </div>
+	</div>
+  </div>
+  <div class="wrap">
+	<div class="menu-container">
+		<ul class="menu">
+			<li>Home</li>
+			<li>About</li>
+			<li>Portfolio
+				<ul class="submenu">
+					<li>Page 1</li>
+					<li>Page 2</li>
+					<li>Page 3</li>
+					<li>Page 4</li>
+				</ul>
+			</li>
+			<li>Contact</li>
+		</ul>
+</div>
+
+<!--extra-->
+
+<!-- This is the HTML code for the image gallery -->
+<div class="image-gallery">
+	<img src="/guitarimages/guitar_1.jpg" alt="Image 1" class="gallery-img">
+	<img src="/guitarimages/guitar_2.jpg" alt="Image 2" class="gallery-img">
+	<img src="/guitarimages/guitar_3.jpg" alt="Image 3" class="gallery-img">
+	<img src="/guitarimages/guitar_4.jpg" alt="Image 4" class="gallery-img">
+  </div>
+  
+  <!-- This is the HTML code for the modal -->
+  <div id="modal">
+	<span class="close">&times;</span>
+	<img id="modal-img" src="" alt="Modal Image">
+  </div>
+  
+  <script src="./JS/one_page_website.js"></script>
+		
+	</body>
+				
+	
+</html>

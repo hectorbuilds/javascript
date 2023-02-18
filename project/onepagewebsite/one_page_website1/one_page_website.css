@@ -1,0 +1,69 @@
+/* This is the CSS code for the image gallery and the modal */
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  
+  .gallery-img {
+    width: 20%;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .gallery-img:hover {
+    opacity: 0.7;
+  }
+  
+  #modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+  
+  #modal-img {
+    display: block;
+    margin: auto;
+    max-width: 25%;
+    max-height: 2%;
+    border: 10px solid #87CEFA; /* light blue */
+    box-shadow: 0px 0px 20px #1E90FF; /* darker blue */
+  }
+  
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 35px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    text-shadow: 1px 1px #1E90FF; /* darker blue */
+  }
+
+  body {
+    background-color: #e6f2ff;
+  }
+  
+  h1 {
+    color: #0077b3;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  p {
+    color: #333333;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+ 
+
+  
